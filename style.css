@@ -107,10 +107,10 @@ body {
 }
 .theme-switchers {
     position: fixed;
-    top: 100px;
-    right: 20px;
+    top: auto;
+    right: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     z-index: 1001;
     background: rgba(255, 255, 255, 0.1);
@@ -176,4 +176,5 @@ body:has(#theme-green:checked) {
 .footer-iconTop :hover {
     box-shadow: 0 0 10px var(--MAIN-COLOR);
     transform: scale(1.1);
+
 }
